@@ -10,7 +10,7 @@ let i = 1;
 let j = 0;
 function animate(){
     ctx.clearRect(0,0,CANVAS_WIDTH, CANVAS_HEIGHT);
-    ctx.fillRect(50,50,100,100);
+    //ctx.fillRect(50,50,100,100);
     player.src =`images/player/Run (${i}).png`;
     ctx.drawImage(player, 200,200,400,400);
     j+=1;
